@@ -5,6 +5,9 @@
 body {
   margin: 0;
   font-family: inter, sans-serif;
+
+  height: 100vh;
+  background-color:#282D35;
 }
 navbar {
   display: flex;
@@ -32,4 +35,19 @@ navbar {
   margin-right: auto;
   color: #DEEBF8;
   font-weight: 600;
+}
+main{
+  padding: 55px 27px;
+  color: white;
+}
+.main--title {
+  padding: 0;
+  font-size: 39px;
+  color: white;
+  letter-spacing: 0em;
+}
+main--facts {
+  margin-top: 40px;
+  padding-block: 10px;
+  max-width: 400px;
 }
