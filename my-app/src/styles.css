@@ -46,8 +46,13 @@ main{
   color: white;
   letter-spacing: 0em;
 }
-main--facts {
+.main--facts {
   margin-top: 40px;
   padding-block: 10px;
   max-width: 400px;
+}
+.main--facts > li::marker {
+  font-size: 1.4em;
+  color: #61DAFB;
+
 }
