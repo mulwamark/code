@@ -39,6 +39,11 @@ navbar {
 main{
   padding: 55px 27px;
   color: white;
+  background-image: url(./image/logo512.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+  background-image-color: #444546;
 }
 .main--title {
   padding: 0;
