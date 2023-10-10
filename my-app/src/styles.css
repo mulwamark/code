@@ -11,19 +11,25 @@ navbar {
   align-items: center;
   background-color:#12222A;
   padding:30px 25px;
-  height:120px;
+  height:90px;
 }
 
-nav > h3, nav > h4 {
+.nav--logo_text, .nav--title {
   margin: 0;
 } 
-nav > img {
-  height: 2px;
+.nav--icon{
+  height: 70px;
   margin: 7px;
 
 }
-nav > h3 {
+.nav--logo_text {
   margin-right: auto;
   color: #61DAFB;
   font-weight: 700;
+  font-size: 22;
+}
+.nav--title{
+  margin-right: auto;
+  color: #DEEBF8;
+  font-weight: 600;
 }
